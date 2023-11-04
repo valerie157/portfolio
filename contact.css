@@ -1,0 +1,102 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+#contact-section{
+   background-size: cover;
+    background-image: url(photo-1518655048521-f130df041f66.avif);
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+#contact-section .container h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position:below;
+    color:black;
+    letter-spacing: 2px;
+}
+#contact-section .container p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: black;
+    letter-spacing: 3px;
+}
+.contact-form i.fa{
+    font-size: 22px;
+    padding: 3%;
+    background-color:burlywood;
+    margin: 2%;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    color: black;
+}
+.contact-form i.fa:hover{
+    cursor: pointer;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color:black;
+    letter-spacing: 2px;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: black;
+    color:wheat;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: #fff;
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: black;
+    color:wheat;
+    border: none;
+    outline: none;
+}
+textarea::placeholder{
+    color: #fff;
+
+}
+.submit{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3%;
+    border: 2px solid #fff;
+}
+.submit:hover{
+    border: 1px solid;
+    color:palevioletred;
+    cursor: pointer;
+}
